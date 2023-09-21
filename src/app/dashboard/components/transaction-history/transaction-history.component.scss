@@ -1,0 +1,19 @@
+.transaction-history {
+    height: 100%;
+
+    background: white;
+    border-radius: 20px;
+
+    padding: 24px 25px;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__list {
+        display: grid;
+        row-gap: 15px;
+        margin-top: 24px;
+    }
+}

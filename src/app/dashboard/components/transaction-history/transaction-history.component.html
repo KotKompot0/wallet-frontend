@@ -1,0 +1,15 @@
+<div class="transaction-history">
+    <div class="transaction-history__header">
+      <h2>Latest Transaction</h2>
+      <span>...</span>
+    </div>
+
+    <ul class="transaction-history__list">
+      <app-transaction-history-item
+        [Transaction]="transaction1"
+      ></app-transaction-history-item>
+      <app-transaction-history-item
+        [Transaction]="transaction2"
+      ></app-transaction-history-item>
+    </ul>
+</div>
