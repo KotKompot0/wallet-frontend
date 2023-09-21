@@ -1,0 +1,32 @@
+<main class="main">
+<section class="sidebar-menu-wrapper">
+    <app-sidebar-menu></app-sidebar-menu>
+</section>
+
+<section class="bank-account-info-wrapper">
+    <app-bank-account-info></app-bank-account-info>
+</section>
+
+<section class="grouped-bar-graph-wrapper">
+    <app-grouped-bar-graph
+        [Stats]="GroupedBarGraphData"
+    ></app-grouped-bar-graph>
+</section>
+
+<section class="report-cards-wrapper">
+    <app-report-card title="Total Income" sum="6437.45"></app-report-card>
+    <app-report-card title="Total Income" sum="232.41"></app-report-card>
+    <app-report-card title="Total Income" sum="546.23"></app-report-card>
+    <app-report-card title="Total Income" sum="32.34"></app-report-card>
+</section>
+
+<section class="transaction-history-wrapper">
+    <app-transaction-history></app-transaction-history>
+</section>
+
+<section class="monthly-stats-wrapper">
+    <app-monthly-stats
+        [Stats]="MonthlyStatsData"
+    ></app-monthly-stats>
+</section>
+</main>

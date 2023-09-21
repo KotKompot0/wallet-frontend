@@ -1,0 +1,47 @@
+/* cyrillic-ext */
+
+.main {
+  display: grid;
+  grid-template-columns: minmax(0, 0.5fr) minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-rows: minmax(267px, 1fr) minmax(145px, 0.7fr) minmax(0, 2fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+
+  padding: 20px 20px 0 0;
+  height: 100vh;
+}
+
+.sidebar-menu-wrapper {
+  grid-area: 1 / 1 / 4 / 2;
+}
+.bank-account-info-wrapper {
+  // max-height: 267px;
+  grid-area: 1 / 2 / 2 / 3;
+}
+.grouped-bar-graph-wrapper {
+  // max-height: 267px;
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+.report-cards-wrapper {
+  display: flex;
+  align-items: center;
+
+  column-gap: 20px;
+  
+  justify-content: space-between;
+  grid-area: 2 / 2 / 3 / 4;
+}
+
+app-report-card {
+  width: 100%;
+  height: 100%;
+  max-height: 140px;
+}
+
+.transaction-history-wrapper {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.monthly-stats-wrapper {
+  grid-area: 3 / 3 / 4 / 4;
+}
