@@ -1,0 +1,57 @@
+.transaction-history-item {
+    display: flex;
+    align-items: center;
+
+    &__status-icon {
+        width: 42px;
+        height: 42px;
+        background-color: #000000;
+
+        border-radius: 100%;
+
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 35px;
+
+        &--refill {
+            fill: #4fd18b;
+            background-color: #dcf5e8;
+        }
+
+        &--writeDowns {
+            transform: rotate(180deg);
+            fill: #d14f4f;
+            background-color: #f5dcdc;
+        }
+    }
+
+    &__text-box {
+        margin-left: 20px;
+    }
+
+    &__title {
+        font-size: 17px;
+        font-weight: 800;
+    }
+
+    &__text {
+        color: #a29ebc;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    &__sum {
+        margin-left: auto;
+
+        font-size: 20px;
+        font-weight: 800;
+
+        &--refill {
+        color: #6ed69e;
+        }
+
+        &--writeDowns {
+        color: #d14f4f;
+        }
+    }
+}
