@@ -1,0 +1,30 @@
+.card {
+    display: grid;
+
+    max-height: 140px;
+
+    height: 100%;
+    width: 100%;
+    
+    padding: 14px 30px;
+
+    background: white;
+    border-radius: 11px;
+
+    &__title {
+        color: #a1a0bd;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    &__value {
+        display: inline-block;
+        font-size: 29px;
+        font-weight: 800;
+
+        &--fractional {
+            color: #afadfe;
+            font-size: 19px;
+        }
+    }
+}
