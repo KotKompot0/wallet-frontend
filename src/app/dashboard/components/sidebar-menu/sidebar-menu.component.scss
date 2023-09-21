@@ -1,0 +1,50 @@
+.sidebar-menu {
+    display: flex;
+
+    height: 100%;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 25px;
+
+    background: white;
+    border-radius: 0px 26px 26px 0px;
+
+    &__logo-wrapper {
+        margin-top: 42px;
+        height: min-content;
+    }
+
+    &__logo {}
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+
+        height: 100%;
+        width: 100%;
+
+        row-gap: 22px;
+        margin-top: 73px;
+    }
+
+    &__element {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+
+        border-radius: 6px;
+        padding: 15px;
+
+        color: #a1a0bd;
+        font-size: 17px;
+        font-weight: 800;
+    }
+
+    &__svg-e {
+        width: 25px;
+        height: 25px;
+    }
+}
